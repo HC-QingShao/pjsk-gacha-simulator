@@ -2,7 +2,7 @@
 
 ## Languages
 
-[简体中文]()    [繁體中文]()    [日本語]()    [English]()
+[简体中文](https://github.com/HC-QingShao/pjsk-gacha-simulator/blob/main/README.md)    [繁體中文]()    [日本語]()    [English]()
 
 ## 🎫版本信息
 
