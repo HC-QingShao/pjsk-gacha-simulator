@@ -2,7 +2,7 @@
 
 ## Languages
 
-[簡體中文](https://github.com/HC-QingShao/pjsk-gacha-simulator/blob/main/README.md) [繁體中文](https://github.com/HC-QingShao/pjsk-gacha-simulator/blob/main/README-tw.md) [日本語](https://github.com/HC-QingShao/pjsk-gacha-simulator/blob/main/README-jp.md) [English](https://github.com/HC-QingShao/pjsk-gacha-simulator/blob/main/README-enmd)
+[简体中文](https://github.com/HC-QingShao/pjsk-gacha-simulator/blob/main/README.md)    [繁體中文](https://github.com/HC-QingShao/pjsk-gacha-simulator/blob/main/README-tw.md)    [日本語](https://github.com/HC-QingShao/pjsk-gacha-simulator/blob/main/README-jp.md)    [English](https://github.com/HC-QingShao/pjsk-gacha-simulator/blob/main/README-en.md)
 
 ## 🎫版本訊息
 
