@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>Project Sekai 抽卡概率模拟器</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Project Sekai 抽卡概率模拟器</h1>
+
+  <!-- 配置面板 -->
+  <div class="config-panel">
+    <div class="config-item">
+      <!-- 美化后的复选框 -->
+      <label class="custom-checkbox">
+        <input type="checkbox" id="upPool">
+        <span class="checkmark"></span>
+        <span class="label-text">是否为UP池（当期4★概率0.4%）</span>
+      </label>
+    </div>
+    <div class="config-item">
+      <label class="custom-checkbox">
+        <input type="checkbox" id="paidCrystal">
+        <span class="checkmark"></span>
+        <span class="label-text">使用付费水晶（双倍积分/单抽100水晶）</span>
+      </label>
+    </div>
+    <div class="config-item">
+      <label for="simCount" class="input-label">模拟抽卡次数（≥100）：</label>
+      <input type="number" id="simCount" min="100" value="100" placeholder="请输入≥100的数字">
+    </div>
+    <button id="startSim">开始统计模拟</button>
+    
+    <!-- 按钮下方提示文本 -->
+    <div id="tipsArea" class="tips-area">
+      <p class="tips-text">📌 当前配置：非UP池 | 免费水晶 | 模拟次数100次</p>
+      <p class="tips-note">💡 提示：模拟次数越多，平均抽数结果越精准，建议至少1000次。当然1000000次以上你的设备会被卡死。</p>
+    </div>
+  </div>
+
+  <p>所有角色版权归属于 SEGA / Colorful Palette Inc. / Crypton Future Media, INC 及其关联的子公司、附属公司。<p>
+  <p>抽卡结果以实际为准。<p>
+  <p>by Qingshao<p>
+
+  <!-- 统计结果展示 -->
+  <div class="result-panel" id="resultPanel" style="display:none;">
+    <h2>统计结果</h2>
+    <div class="summary-stats">
+      <p>✅ 实际模拟次数：<span id="actualSimCount">0</span> 次</p>
+      <p>📊 抽到当期4★平均抽数：<span id="avgDraws">0</span> 次</p>
+      <p>📈 单次最高抽数：<span id="maxDraws">0</span> 次</p>
+      <p>📉 单次最低抽数：<span id="minDraws">0</span> 次</p>
+      <p>💰 平均消耗水晶：<span id="avgCost">0</span> 个</p>
+      <p>💎 水晶类型：<span id="crystalType">免费水晶</span></p>
+    </div>
+
+    <div class="total-counts">
+      <h3>所有模拟累计获得</h3>
+      <p>当期4★：<span id="total4Up">0</span> 体</p>
+      <p>普通4★：<span id="total4Normal">0</span> 体</p>
+      <p>3★：<span id="total3">0</span> 体</p>
+      <p>2★：<span id="total2">0</span> 体</p>
+    </div>
+
+    <!-- 完整抽卡结果输出 -->
+    <div class="full-records">
+      <h3>完整抽卡结果记录 
+        <button id="copyRecords" class="copy-btn">复制全部记录</button>
+      </h3>
+      <div id="fullRecordList" class="full-record-list"></div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
