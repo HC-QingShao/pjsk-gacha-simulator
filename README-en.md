@@ -8,6 +8,8 @@
 
 Last edited date: February 26, 2026
 
+Powered by Google Translate
+
 Latest version of this website: v1.0.0
 
 ## 👏 Welcome!
