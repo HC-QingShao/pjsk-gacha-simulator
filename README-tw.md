@@ -8,7 +8,7 @@
 
 本文件最後編輯日期：2026年2月26日
 
-Powered by Google Translate
+Translate by Google
 
 本網站最新版本：v1.0.0
 
