@@ -8,7 +8,7 @@
 
 最終更新日: 2026年2月26日
 
-Translate by Google
+Translate by Google Translate
 
 このウェブサイトの最新バージョン: v1.0.0
 
